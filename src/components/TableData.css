@@ -1,0 +1,23 @@
+.rowClassName1 {
+    background-color: rgb(239, 245, 245);
+    border-radius: 10px;
+    border-color: rgb(14, 26, 3);
+    border-width: 5px;
+    border-style: solid;
+    font-size: 16px;
+    border: 1px solid #383131;
+  }
+
+  .ant-table-tbody > tr > td {
+    border: 1px solid #83d9ee;
+    }
+  
+  .rowClassName1 td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .rowClassName1 td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
