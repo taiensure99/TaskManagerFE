@@ -5,7 +5,7 @@ import { Form, Input, Button, Checkbox } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import api from '../api/axios';
 import Task from './Task';
-import TableData from '../components/TableData';
+
 import { message } from 'antd';
 
 
@@ -41,7 +41,7 @@ export default class Login extends Component {
 
   render() {
     return (
-        this.state.isLogin?(<Task login={this.loginApp}/>):(<>
+        this.state.isLogin?(<Task login={this.loginApp}/>):(<div style={{ display:"flex", alignItems:"center", justifyContent:"center", backgroundColor:"#8080808f",margin:"4rem 22rem",padding:"2rem"}}>
             <Form
             name="normal_login"
             className="login-form"
@@ -82,7 +82,7 @@ export default class Login extends Component {
                 Log in
               </Button>
             </Form.Item>
-          </Form></>)
+          </Form></div>)
         
     )
   }

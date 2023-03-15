@@ -117,7 +117,7 @@ export default class PopupTask extends Component {
       title={"Chi tiết công viêc"}
       //onOk={this.handleOk}
       okText={"Lưu"}
-      onCancel={this.handleCancel}
+      onCancel={this.close}
       cancelText={"Đóng"}          
       footer={[
         [

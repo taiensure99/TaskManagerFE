@@ -1,7 +1,5 @@
-import TableData from './components/TableData';
-import Login from './Screen/Login';
-import Task from './Screen/Task';
 
+import Login from './Screen/Login';
 
 function App() { 
 return (
